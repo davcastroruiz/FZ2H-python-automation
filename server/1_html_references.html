@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Document metadata -->
+  </head>
+  <body>
+    <h1>Day 2</h1>
+    <!-- Document content -->
+    <b># a </b><br>
+    Creates a link to a URL: a web page, a section within a page, an email address... Also called the anchor element, where the a comes from.<br>
+    <a href="https://htmlreference.io">For more information please visit HTML Reference</a><br>
+
+    <br><b># br </b><br>
+    Defines a line break within a text.
+    Lorem ipsum dolor sit<br>amet, consectetur adipiscing elit. Donec viverra<br>nec<br>nulla vitae mollis.<br>
+
+    <br><b># button </b><br>
+    Defines a clickable button.<br>
+    <button>
+      Submit form
+    </button><br>
+
+    <br><b># div </b><br>
+    <div>
+      Defines a generic block of content, that does not carry any semantic value. Used for layout elements like containers.
+    </div>
+
+    <br><b># li </b><br>
+    Defines a list item within an ordered list < ol> or unordered list < ul>.<br>
+      OL
+    <ol>
+      <li>Step one</li>
+      <li>Step two</li>
+      <li>????</li>
+      <li>PROFIT!!!</li>
+    </ol>
+
+    <p>My shopping list:</p>
+    <ul>
+      <li>Milk</li>
+      <li>Bread</li>
+      <li>Chocolate</li>
+      <li>More chocolate</li>
+    </ul>
+    
+    <br><b># img </b><br>
+    Defines an image inserted in the web page.<br>
+    <img src="../images/screenshot.png" alt="Picture of a Ha Long Bay sunset">
+
+
+    <br><b># input </b><br>
+    Defines an interactive control within a web form.<br>
+    <input type="text" name="username" placeholder="e.g. your username"><br>
+
+
+    <br><b># form </b><br>
+    Defines an interactive form with controls.<br>
+    <form action="/signup" method="post">
+      <p>
+        <label>Title</label><br>
+        <label>
+          <input type="radio" name="title" value="mr">
+          Mr
+        </label>
+        <label>
+          <input type="radio" name="title" value="mrs">
+          Mrs
+        </label>
+        <label>
+          <input type="radio" name="title" value="miss">
+          Miss
+        </label>
+      </p>
+      <p>
+        <label>First name</label><br>
+        <input type="text" name="first_name">
+      </p>
+      <p>
+        <label>Last name</label><br>
+        <input type="text" name="last_name">
+      </p>
+      <p>
+        <label>Email</label><br>
+        <input type="email" name="email" required>
+      </p>
+      <p>
+        <label>Phone number</label><br>
+        <input type="tel" name="phone">
+      </p>
+      <p>
+        <label>Password</label><br>
+        <input type="password" name="password">
+      </p>
+      <p>
+        <label>Country</label><br>
+        <select>
+          <option>China</option>
+          <option>India</option>
+          <option>United States</option>
+          <option>Indonesia</option>
+          <option>Brazil</option>
+        </select>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" value="terms">
+          I agree to the <a href="/terms">terms and conditions</a>
+        </label>
+      </p>
+      <p>
+        <button>Sign up</button>
+        <button type="reset">Reset form</button>
+      </p>
+    </form>
+
+
+  </body>
+</html>
