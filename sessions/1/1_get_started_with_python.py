@@ -1,4 +1,4 @@
-# day of 1
+# session of 1
 '''
 # HELLO WORLD!! #
 What is Python?
@@ -40,6 +40,7 @@ if 5 > 2:
 
 x = 5
 y = 'My Name is \n'
+z = ['What?', 'Who?']
 print(y*x)
 
 

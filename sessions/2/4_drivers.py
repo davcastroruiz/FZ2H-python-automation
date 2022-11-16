@@ -1,4 +1,4 @@
-# day of 2
+# session of 2
 ''' Selenium supports automation of all the major browsers in the market through the use of WebDriver. 
 WebDriver is an API and protocol that defines a language-neutral interface for controlling the behavior of web browsers. 
 
@@ -17,13 +17,15 @@ Today we want to install a few dependencies
 
 # (1) ---------- using the web driver manager to install the chrome driver --------
 # Import WebDriver Manager for Python
+from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Use install() to get the location used by the manager and pass it to the driver in a service class instance:
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-driver.implicitly_wait(2)
+driver.get("https://www.f5.com/")
+sleep(10)
 driver.quit()
 
 # (2) ---------- using the hard coded location path -----------
