@@ -13,6 +13,7 @@ Today we want to install a few dependencies
 # pip install pandas
 # pip install matplotlib
 # pip install webdriver-manager
+# pip install notebook
 # '''
 
 # (1) ---------- using the web driver manager to install the chrome driver --------
