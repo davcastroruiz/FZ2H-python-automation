@@ -10,10 +10,11 @@ Before you can start writing Selenium code, you have to install the language bin
 
 Today we want to install a few dependencies 
 # pip install selenium
-# pip install pandas
-# pip install matplotlib
+# pip install pandas matplotlib lxml html5lib
 # pip install webdriver-manager
 # pip install notebook
+# pip install unittest-xml-reporting
+python -m <module> -h
 # '''
 
 # (1) ---------- using the web driver manager to install the chrome driver --------

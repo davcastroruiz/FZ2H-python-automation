@@ -1,1 +1,4 @@
 *.pyc
+*.ipynb
+*.xml
+*.png
