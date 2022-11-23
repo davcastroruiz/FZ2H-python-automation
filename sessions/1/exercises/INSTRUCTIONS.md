@@ -18,7 +18,7 @@ Operator	Name	        Example
 3) verify if user wants another calculation
 3.1) no? break the while loop
 
-
+Tips:
 - user_input = input('a message or instruction')
 - while True: break
 - switch/if statement

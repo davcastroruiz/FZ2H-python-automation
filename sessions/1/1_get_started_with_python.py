@@ -1,4 +1,4 @@
-# session of 1
+# session 1
 '''
 # HELLO WORLD!! #
 What is Python?

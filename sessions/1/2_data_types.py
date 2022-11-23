@@ -1,4 +1,4 @@
-# session of 1
+# session 1
 '''
 Before continuing we need to understand data types and variables and how to access 'em
 
