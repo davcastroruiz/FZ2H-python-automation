@@ -1,4 +1,4 @@
-# session of 2
+# session 2
 ''' Selenium supports automation of all the major browsers in the market through the use of WebDriver. 
 WebDriver is an API and protocol that defines a language-neutral interface for controlling the behavior of web browsers. 
 
