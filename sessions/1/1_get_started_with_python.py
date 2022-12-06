@@ -75,3 +75,9 @@ def add_last_name(first_name, last_name):
 
 add_last_name('Jon', 'Gross')
 
+# NOTES FROM SESSION 1
+# doc strings
+# django-rest-framework
+# flask-api
+# flask-swagger
+# FastAPI -> Microservices
